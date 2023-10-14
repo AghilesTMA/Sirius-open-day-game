@@ -1,5 +1,6 @@
 import React from "react";
-import { easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import Astronaut from "../assets/AstronautImg.png";
 
 const Progress = {
   1: "w-1/12",
@@ -21,9 +22,20 @@ const ProgressBar = ({ step }) => {
     <div className=" w-full bg-white h-1 rounded-full">
       <motion.div
         layout
-        transition={{duration:.3,ease:easeInOut}}
-        className={` rounded-full  bg-primary-purple ${Progress[step + 1]} w- h-1`}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+        className={` rounded-full  bg-primary-purple ${
+          Progress[step + 1]
+        } w- h-1`}
       ></motion.div>
+      <motion.div
+        layout
+        animate={{rotate:step%2===0?10:-10}}
+        transition={{duration:0.4,ease:"easeIn"}}
+        style={{ left: `${(step * 100) / 12}%`}}
+        className=" absolute w-12 top-[-29.92px]"
+      >
+        <img src={Astronaut} alt="AstronautImg" className=" w-full" />
+      </motion.div>
     </div>
   );
 };

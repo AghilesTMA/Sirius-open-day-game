@@ -11,7 +11,7 @@ const Home = () => {
         initial={{ y: "100%" }}
         animate={{ y: 0 }}
         transition={{ duration: 0.3, ease: "easeIn" }}
-        className=" w-full flex flex-col md:flex-row justify-between items-center gap-2 text-white"
+        className=" w-full flex flex-col md:flex-row justify-between items-center gap-0 text-white"
       >
         <div className="hidden md:flex w-full p-8 items-start gap-4 flex-col">
           <h1 className=" font-bold text-3xl">
@@ -30,7 +30,7 @@ const Home = () => {
             />
           </Link>
         </div>
-        <h2 className=" md:hidden text-4xl p-2 font-bold">
+        <h2 className=" md:hidden text-3xl p-8 pb-0 font-bold">
           where are you from ya bnadem :
         </h2>
         <div className=" w-full max-w-lg">

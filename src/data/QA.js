@@ -157,7 +157,7 @@ const QA = [
         type: "Moon",
       },
       {
-        text: "Sirius Club",
+        text: "Tghib Tomorrow (Tmyiiine)",
         type: "Funtopia_C78",
       },
     ],

@@ -2,11 +2,17 @@ import React from "react";
 import Astronaut from "../assets/Astronaut";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
     <div className=" bg-bgc min-h-screen flex justify-center items-center">
-      <div className=" w-full flex flex-col md:flex-row justify-between items-center gap-2 text-white">
+      <motion.div
+        initial={{ y: "100%" }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.3, ease: "easeIn" }}
+        className=" w-full flex flex-col md:flex-row justify-between items-center gap-2 text-white"
+      >
         <div className="hidden md:flex w-full p-8 items-start gap-4 flex-col">
           <h1 className=" font-bold text-3xl">
             Are you ready to know which planet you belong to ?
@@ -33,10 +39,10 @@ const Home = () => {
         <Link className=" md:hidden" to={"/questions"}>
           <Button
             content={"Go now"}
-            className={"py-4 px-12  text-xl rounded-md cursor-pointer mb-2"} 
+            className={"py-4 px-12  text-xl rounded-md cursor-pointer mb-2"}
           />
         </Link>
-      </div>
+      </motion.div>
     </div>
   );
 };

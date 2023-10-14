@@ -2,18 +2,18 @@ const QA = [
   {
     question: "If ESTIN Bejaia had a school mascot, what would it be?",
     answers: [
-      { text: "A mischievous lab monkey in a lab coat", type: "Funtopia_C78" },
+      { text: "A mischievous lab monkey in a lab coat", type: "Sun" },
       {
         text: "A friendly robot with a backpack full of knowledge",
         type: "Moon",
       },
       {
         text: "An artistically inclined chameleon with a beret",
-        type: "BlackHole_K12",
+        type: "Funtopia_C78",
       },
       {
         text: " A space explorer with a telescope and spaceship",
-        type: "Rulerterra_27FF",
+        type: "BlackHole_K12",
       },
     ],
   },
@@ -24,11 +24,11 @@ const QA = [
       { text: "My pet camel ate it.", type: "Funtopia_C78" },
       {
         text: "Aliens abducted my textbook.",
-        type: "Moon",
+        type: "Sun",
       },
       {
         text: "My drawings got sucked into a black hole.",
-        type: "BlackHole_K12",
+        type: "Moon",
       },
       {
         text: "I was on a mission to explore Planet Procrastination.",
@@ -42,15 +42,15 @@ const QA = [
     answers: [
       {
         text: " A calculator, because math can solve anything",
-        type: "Funtopia_C78",
+        type: "BlackHole_K12",
       },
       {
         text: "A history book, for wisdom and entertainment",
-        type: "Moon",
+        type: "Funtopia_C78",
       },
       {
         text: "An art supply kit to capture the beauty of the planet",
-        type: "BlackHole_K12",
+        type: "Moon",
       },
       {
         text: "A satellite phone to call for help from space",
@@ -62,14 +62,14 @@ const QA = [
     question:
       "If your ESTIN Bejaia graduation were a movie, which genre would it be?",
     answers: [
-      { text: "Science Fiction", type: "Funtopia_C78" },
+      { text: "Science Fiction", type: "BlackHole_K12" },
       {
         text: "Time-Travel Adventure",
-        type: "Moon",
+        type: "Sun",
       },
       {
         text: "Cosmic Comedy",
-        type: "BlackHole_K12",
+        type: "Funtopia_C78",
       },
       {
         text: "Artistic Drama",
@@ -81,18 +81,18 @@ const QA = [
     question:
       "What's your favorite way to unwind after a challenging day at ESTIN Bejaia?",
     answers: [
-      { text: "Solving more equations for fun", type: "Funtopia_C78" },
+      { text: "Solving more equations for fun", type: "BlackHole_K12" },
       {
         text: "Going back in time to make things right",
-        type: "Moon",
+        type: "Rulerterra_27FF",
       },
       {
         text: "Creating artwork inspired by the day",
-        type: "BlackHole_K12",
+        type: "Moon",
       },
       {
         text: "taking a +18h nap",
-        type: "Rulerterra_27FF",
+        type: "Funtopia_C78",
       },
     ],
   },
@@ -102,19 +102,19 @@ const QA = [
     answers: [
       {
         text: "The Time-Traveler who revisits the same material repeatedly",
-        type: "Funtopia_C78",
+        type: "Sun",
       },
       {
         text: "The Inventor who creates unique study tools",
-        type: "Moon",
+        type: "Rulerterra_27FF",
       },
       {
         text: "The Shape-Shifter who adapts their approach for each subject",
-        type: "BlackHole_K12",
+        type: "Moon",
       },
       {
         text: "The Alien with an otherworldly perspective on learning",
-        type: "Rulerterra_27FF",
+        type: "BlackHole_K12",
       },
     ],
   },
@@ -124,19 +124,19 @@ const QA = [
     answers: [
       {
         text: "Telepathy to instantly understand complex concepts",
-        type: "Funtopia_C78",
-      },
-      {
-        text: "Time manipulation to add more hours to your day",
-        type: "Moon",
-      },
-      {
-        text: "Creative visualization to make studying enjoyable",
         type: "BlackHole_K12",
       },
       {
-        text: "Teleportation to attend all classes in a flash",
+        text: "Time manipulation to add more hours to your day",
         type: "Rulerterra_27FF",
+      },
+      {
+        text: "Creative visualization to make studying enjoyable",
+        type: "Funtopia_C78",
+      },
+      {
+        text: "Teleportation to attend all classes in a flash",
+        type: "Sun",
       },
     ],
   },
@@ -145,20 +145,20 @@ const QA = [
       " What's your favorite way to cope with the stress of assignments and exams?",
     answers: [
       {
-        text: "Sirius club",
-        type: "Funtopia_C78",
+        text: "Write algorithms to solve the stress equation",
+        type: "Rulerterra_27FF",
       },
       {
         text: "Time-travel to the future, realize it's not that bad, and come back relieved.",
-        type: "Moon",
-      },
-      {
-        text: "Create art inspired by your stress to transform it into something beautiful.",
         type: "BlackHole_K12",
       },
       {
-        text: "I don't have stress in my dictionary, I complete all my tasks.",
-        type: "Rulerterra_27FF",
+        text: "Create art inspired by your stress to transform it into something beautiful.",
+        type: "Moon",
+      },
+      {
+        text: "Sirius Club",
+        type: "Funtopia_C78",
       },
     ],
   },
@@ -168,11 +168,11 @@ const QA = [
     answers: [
       {
         text: "I can't breathe! Too many textbooks!",
-        type: "Funtopia_C78",
+        type: "Moon",
       },
       {
         text: "All those messy snack crumbs.",
-        type: "Moon",
+        type: "Funtopia_C78",
       },
       {
         text: "Endless doodles and sketches on my surface.",
@@ -194,15 +194,15 @@ const QA = [
       },
       {
         text: "option 1",
-        type: "Moon",
+        type: "Funtopia_C78",
       },
       {
         text: "option 2",
-        type: "BlackHole_K12",
+        type: "Funtopia_C78",
       },
       {
         text: "All of the above",
-        type: "Rulerterra_27FF",
+        type: "Funtopia_C78",
       },
     ],
   },
@@ -212,19 +212,19 @@ const QA = [
     answers: [
       {
         text: "An AI coffee maker that brews your perfect cup upon waking.",
-        type: "Funtopia_C78",
+        type: "Rulerterra_27FF",
       },
       {
         text: "An IoT-powered time machine to fetch notes from the future.",
-        type: "Moon",
+        type: "Sun",
       },
       {
         text: "An artistic AI that generates creative project ideas.",
-        type: "BlackHole_K12",
+        type: "Moon",
       },
       {
         text: "A device that let me do my homeworks,I'm to lazy to do them",
-        type: "BlackHole_K12",
+        type: "Funtopia_C78",
       },
     ],
   },
@@ -234,19 +234,19 @@ const QA = [
     answers: [
       {
         text: "A dance move inspired by 'Ey Ey' to set the groove.",
-        type: "Funtopia_C78",
+        type: "Sun",
       },
       {
         text: "An interstellar dance routine that's out of this world!",
-        type: "Moon",
-      },
-      {
-        text: "Manini's signature dance, the 'Producer Shuffle.'",
         type: "BlackHole_K12",
       },
       {
+        text: "Manini's signature dance, the 'Producer Shuffle.'",
+        type: "Funtopia_C78",
+      },
+      {
         text: "'Why Why' dance style that gets everyone on their feet.",
-        type: "Rulerterra_27FF",
+        type: "Sun",
       },
     ],
   },

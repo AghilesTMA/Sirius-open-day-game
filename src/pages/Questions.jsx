@@ -3,6 +3,8 @@ import { PlanetsScore } from "../context/Planets";
 import ProgressBar from "../components/ProgressBar";
 import QA from "../data/QA";
 import { useNavigate } from "react-router-dom";
+import BgQuestions from "../components/BgQuestions";
+import { motion } from "framer-motion";
 
 const Questions = () => {
   const navigate = useNavigate();
@@ -20,8 +22,13 @@ const Questions = () => {
   };
 
   return (
-    <div className="bg-bgc p-8 h-screen flex flex-col justify-center items-center">
-      <div className=" flex w-full flex-col h-4/6 justify-between gap-4 text-white">
+    <div className="relative z-20 bg-bgc p-8 h-screen flex flex-col justify-center items-center">
+      <motion.div
+        initial={{ y: "100%" }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.3, ease: "easeIn" }}
+        className=" relative z-20 flex w-full flex-col h-4/6 justify-between gap-4 text-white"
+      >
         <ProgressBar step={step} />
         <h2 className=" font-medium  text-3xl">Question {step + 1}</h2>
         <p className=" text-2xl text-center">{QA[step].question}</p>
@@ -40,7 +47,8 @@ const Questions = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </motion.div>
+      <BgQuestions />
     </div>
   );
 };
